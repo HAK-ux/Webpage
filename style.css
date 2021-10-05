@@ -1,0 +1,60 @@
+@charset 'utf -8';
+
+/*
+ * CSS stands for cascading style sheet. This file changes the look and feel of the website as a whole. 
+ * It can change the style across multiple web pages as well as use different style sheets for different instances. For example, a mobile view vs, a screen view. 
+ * CSS files are a list of rules with the following structure:
+ * body {
+ * background-color: grey;
+ * }
+ * The body is called the selector, the background color is the property,and the grey is the value.
+ * */
+.all-scroll {cursor: pointer;}
+
+body {
+	background-color: black;
+	color: white;
+	margin-left:20px;
+
+}
+nav, article, footer{
+	max-width: 800px;
+	border: 5px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+}
+footer, article{
+	background-color: #2B2B6A;
+
+}
+nav{
+	background-color: black;
+	margin-bottom: 5px;
+}
+footer{
+	margin-top: 5px;
+	text-align: center;
+
+}
+p {
+    text-decoration-style: wavy;
+
+}
+ul {
+	list-style-type: circle;
+
+}
+/* Classes, IDs, and Spans
+ * Classes and IDs are books that specify elemetns more than the tag itself. For example, the webpage may want different font styles for seperate paragraphs. Classes can be used multiple times
+ * on a single webpage. IDs can only be used once.
+ * Spans are element tags that do nothing by themselves, but use classes and IDs to specify text to change with CSS.
+ */
+ 
+.firstpara{
+	color: #E802C5;
+}
